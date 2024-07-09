@@ -30,7 +30,7 @@ android {
             buildConfigField(
                 "Boolean",
                 "DEFAULT_LOGCAT_MONITORING_ENABLED",
-                "false",
+                "true",
             )
         }
 
