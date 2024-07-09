@@ -90,7 +90,7 @@ afterEvaluate {
         publications {
             register<MavenPublication>("release") {
                 from(components.getByName("release"))
-                groupId = "com.github.checkout"
+                groupId = "com.github.youssefali424"
                 artifactId = "checkout-risk-sdk-android"
                 version = "2.0.0"
             }
